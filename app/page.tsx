@@ -52,7 +52,7 @@ export default function Home() {
         {/* مميزات النطاق */}
         {data.content.features && (
           <div className="mt-32 grid grid-cols-1 md:grid-cols-3 gap-6 w-full text-right">
-            {data.content.features.map((feature: any, index: number) => (
+            {data.content.features.map((feature: { title: string, desc: string }, index: number) => (
               <div key={index} className="p-8 rounded-2xl bg-white/5 border border-white/5 hover:border-primary/50 transition-colors backdrop-blur-sm">
                 <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary mb-6 text-xl">
                   {index + 1}
