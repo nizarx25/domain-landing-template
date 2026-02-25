@@ -1,0 +1,18 @@
+{
+  "domainName": "Example.com",
+  "suggested_price": "5,000",
+  "siteConfig": {
+    "colors": {
+      "primary": "#d4af37",
+      "secondary": "#333333",
+      "accent": "#ff4500",
+      "background": "#0a0a0a",
+      "text": "#ffffff"
+    }
+  },
+  "content": {
+    "hero_title": "نطاق فاخر متاح للبيع",
+    "hero_subtitle": "فرصة استثنائية لامتلاك هوية رقمية مميزة في سوق التقنية.",
+    "final_cta": "تواصل للشراء الآن"
+  }
+}
