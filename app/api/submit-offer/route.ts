@@ -3,7 +3,7 @@ import { Resend } from 'resend'
 import { OwnerNotificationEmail, SubmitterConfirmationEmail } from '@/components/email-templates'
 import { siteConfig } from '@/config/site'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = new Resend(process.env.RESEND_API_KEY || "re_dummy_key_to_pass_build");
 const resendDomain = process.env.RESEND_DOMAIN
 
 export async function POST(request: Request) {
