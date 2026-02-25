@@ -1,4 +1,4 @@
-import "./globals.css";
+import "./styles/globals.css";
 import data from "../data/domain.json";
 
 export default function RootLayout({
