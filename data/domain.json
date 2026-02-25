@@ -2,6 +2,7 @@
   "domainName": "Example.com",
   "suggested_price": "5,000",
   "siteConfig": {
+    "contactEmail": "your-email@example.com", 
     "colors": {
       "primary": "#d4af37",
       "secondary": "#333333",
