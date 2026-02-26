@@ -73,7 +73,7 @@ export default function Home() {
           {/* Why this domain? */}
           <section className="space-y-6">
             <h2 className="text-3xl font-bold text-white mb-8">Why this domain?</h2>
-            {data.content.features?.map((feature: any, idx: number) => (
+            {data.content.features?.map((feature: { title: string, desc: string }, idx: number) => (
               <div key={idx} className="flex gap-5 p-6 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[var(--color-primary)]/20 flex items-center justify-center text-[var(--color-primary)] font-bold text-xl">
                   ✓
@@ -89,7 +89,7 @@ export default function Home() {
           {/* Strategic Value / Utilization */}
           <section className="space-y-6">
             <h2 className="text-3xl font-bold text-white mb-8">Strategic Value</h2>
-            {data.content.valueProposition?.map((prop: any, idx: number) => (
+            {data.content.valueProposition?.map((prop: { title: string, desc: string }, idx: number) => (
               <div key={idx} className="p-8 rounded-2xl bg-gradient-to-br from-white/5 to-transparent border border-white/10 hover:border-[var(--color-accent)]/50 transition-colors relative overflow-hidden group">
                 <div className="absolute top-0 right-0 w-40 h-40 bg-[var(--color-accent)]/10 rounded-full blur-3xl group-hover:bg-[var(--color-accent)]/20 transition-all"></div>
                 <h3 className="text-xl font-semibold text-[var(--color-accent)] mb-3 relative z-10">{prop.title}</h3>
